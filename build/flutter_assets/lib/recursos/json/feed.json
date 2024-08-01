@@ -230,6 +230,122 @@
                     }
                 ]
             }
+        },
+        {
+            "_id": 9,
+            "datetime": "2019-11-01T12:00-0500",
+            "lugar": {
+                "nome": "Catedral de Nossa Senhora das Vitórias",
+                "avatar": "igreja.png"
+            },
+            "nota": 1.1,
+            "detalhes": {
+                "nome": "Catedral de Nossa Senhora das Vitórias",
+                "descricao": "A Catedral Metropolitana de Nossa Senhora das Vitórias é uma catedral e sé arquiepiscopal da Arquidiocese de Vitória da Conquista. É sede da paróquia homônima, a qual está sediada no município de Vitória da Conquista. Localiza-se na Praça Tancredo Neves, no centro de Vitória da Conquista.",
+                "tipo": "IGREJA",
+                "url": "Endereço: Centro, Vitória da Conquista - BA",
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "catedral.jpeg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "catedral2.jpeg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "catedral3.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 10,
+            "datetime": "2019-11-01T12:00-0500",
+            "lugar": {
+                "nome": "Primeira Igreja Batista Bíblica",
+                "avatar": "igreja.png"
+            },
+            "nota": 1,
+            "detalhes": {
+                "nome": "Primeira Igreja Batista Bíblica",
+                "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "tipo": "IGREJA",
+                "url": "Endereço: Praça Caixeiros Viajantes, s/n - Centro, BA, 45015-030",
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "batista.jpg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "batista2.jpg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "batista3.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 11,
+            "datetime": "2019-11-01T12:00-0500",
+            "lugar": {
+                "nome": "Apache Music Club",
+                "avatar": "dance.png"
+            },
+            "nota": 2,
+            "detalhes": {
+                "nome": "Apache Music Club",
+                "descricao": "19K Followers, 7076 Following, 581 Posts - Apache Music Club (@apachemusicclub) on Instagram: A MELHOR CASA DE SHOW DA CIDADE ESTÁ DE VOLTA!",
+                "tipo": "CASA-NOTURNA",
+                "url": "Endereço: R. Líbano, 176-396 - Felícia, Vitória da Conquista - BA, 45055-225",
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "apache.png"
+                    },
+                    {
+                        "type": "image",
+                        "file": "apache2.jpeg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "apache3.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 12,
+            "datetime": "2019-11-01T12:00-0500",
+            "lugar": {
+                "nome": "LUNA LOUNGE CLUB",
+                "avatar": "dance.png"
+            },
+            "nota": 4.9,
+            "detalhes": {
+                "nome": "LUNA LOUNGE CLUB",
+                "descricao": "Aberto sextas sábados e aos domingos, venham conhecer o nosso espaço. Alugamos TMB para eventos! #balada #balade #show #casanoturna #festa ...",
+                "tipo": "CASA-NOTURNA",
+                "url": "Endereço: Av. Vivaldo Mendes Ferraz, 463 - Recreio, Vitória da Conquista - BA, 45020-395",
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "luna.jpg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "luna2.jpg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "luna3.jpg"
+                    }
+                ]
+            }
         }
     ]
 }

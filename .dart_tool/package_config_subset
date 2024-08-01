@@ -34,6 +34,14 @@ flutter_lints
 2.19
 file:///home/skulls/.pub-cache/hosted/pub.dev/flutter_lints-2.0.3/
 file:///home/skulls/.pub-cache/hosted/pub.dev/flutter_lints-2.0.3/lib/
+flutter_rating_bar
+2.14
+file:///home/skulls/.pub-cache/hosted/pub.dev/flutter_rating_bar-4.0.1/
+file:///home/skulls/.pub-cache/hosted/pub.dev/flutter_rating_bar-4.0.1/lib/
+fluttertoast
+2.12
+file:///home/skulls/.pub-cache/hosted/pub.dev/fluttertoast-8.2.6/
+file:///home/skulls/.pub-cache/hosted/pub.dev/fluttertoast-8.2.6/lib/
 google_identity_services_web
 3.3
 file:///home/skulls/.pub-cache/hosted/pub.dev/google_identity_services_web-0.3.1+1/
@@ -156,8 +164,8 @@ file:///home/skulls/.pub-cache/hosted/pub.dev/web-0.5.1/
 file:///home/skulls/.pub-cache/hosted/pub.dev/web-0.5.1/lib/
 melhoreslugares
 3.0
-file:///home/skulls/melhores_lugares/
-file:///home/skulls/melhores_lugares/lib/
+file:///home/skulls/melhores_lugares_frontend/
+file:///home/skulls/melhores_lugares_frontend/lib/
 sky_engine
 3.2
 file:///opt/flutter/bin/cache/pkg/sky_engine/

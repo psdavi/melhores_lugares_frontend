@@ -62,6 +62,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "flutter_rating_bar",
+      "rootUri": "file:///home/skulls/.pub-cache/hosted/pub.dev/flutter_rating_bar-4.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///opt/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -72,6 +78,12 @@
       "rootUri": "file:///opt/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.2"
+    },
+    {
+      "name": "fluttertoast",
+      "rootUri": "file:///home/skulls/.pub-cache/hosted/pub.dev/fluttertoast-8.2.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "google_identity_services_web",
@@ -266,7 +278,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-07-31T23:41:42.815733Z",
+  "generated": "2024-08-01T04:14:26.849638Z",
   "generator": "pub",
   "generatorVersion": "3.3.1"
 }

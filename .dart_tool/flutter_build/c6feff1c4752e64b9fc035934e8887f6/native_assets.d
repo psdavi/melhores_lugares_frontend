@@ -1,0 +1,1 @@
+ /home/skulls/melhores_lugares_frontend/.dart_tool/flutter_build/c6feff1c4752e64b9fc035934e8887f6/native_assets.yaml: 

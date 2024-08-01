@@ -1,26 +1,59 @@
+// ignore_for_file: unnecessary_getters_setters
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
+
+import 'autenticador.dart';
 
 enum Situacao { mostrandoProdutos, mostrandoDetalhes }
 
 class EstadoApp extends ChangeNotifier {
   Situacao _situacao = Situacao.mostrandoProdutos;
   Situacao get situacao => _situacao;
+  set situacao(Situacao situacao) {
+    _situacao = situacao;
+    notifyListeners();
+  }
 
-  late int _idProduto;
+  int _idProduto = 0;
   int get idProduto => _idProduto;
+  set idProduto(int idProduto) {
+    _idProduto = idProduto;
+    notifyListeners();
+  }
+
+  Usuario? _usuario;
+  Usuario? get usuario => _usuario;
+  set usuario(Usuario? usuario) {
+    _usuario = usuario;
+    notifyListeners();
+  }
 
   void mostrarProdutos() {
-    _situacao = Situacao.mostrandoProdutos;
-
-    notifyListeners();
+    situacao = Situacao.mostrandoProdutos;
   }
 
   void mostrarDetalhes(int idProduto) {
-    _situacao = Situacao.mostrandoDetalhes;
-    _idProduto = idProduto;
+    if (_usuario != null) {
+      situacao = Situacao.mostrandoDetalhes;
+      this.idProduto = idProduto;
+    } else {
+      Fluttertoast.showToast(msg: "Por favor, faça login para ver os detalhes do local.");
+    }
+  }
 
+  void onLogin(Usuario usuario) {
+    _usuario = usuario;
     notifyListeners();
+  }
+
+  void onLogout() {
+    _usuario = null;
+    notifyListeners();
+  }
+
+  bool temUsuarioLogado() {
+    return _usuario != null;
   }
 }
 
-late EstadoApp estadoApp;
+late EstadoApp estadoApp = EstadoApp();

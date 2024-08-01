@@ -15,13 +15,16 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-        create: (_) => EstadoApp(),
-        child: MaterialApp(
-          title: "Melhores Lugares",
-          theme: ThemeData(
-              colorScheme: const ColorScheme.dark(), useMaterial3: true),
-          home: const Tela(),
-        ));
+      create: (_) => EstadoApp(),
+      child: MaterialApp(
+        title: "Melhores Lugares",
+        theme: ThemeData(
+          colorScheme: const ColorScheme.dark(),
+          useMaterial3: true,
+        ),
+        home: const Tela(),
+      ),
+    );
   }
 }
 
@@ -35,7 +38,8 @@ class Tela extends StatefulWidget {
 class _TelaState extends State<Tela> {
   void _exibirComoRetrato() {
     SystemChrome.setPreferredOrientations(
-        [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
+      [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown],
+    );
   }
 
   @override
@@ -48,7 +52,7 @@ class _TelaState extends State<Tela> {
     if (estadoApp.situacao == Situacao.mostrandoProdutos) {
       tela = const Produtos();
     } else if (estadoApp.situacao == Situacao.mostrandoDetalhes) {
-      tela = const Detalhes();
+      tela = Detalhes(idProduto: estadoApp.idProduto);  // Passando o idProduto
     }
 
     return tela;

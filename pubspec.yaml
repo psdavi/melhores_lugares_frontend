@@ -10,12 +10,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_rating_bar: ^4.0.0
 
   cupertino_icons: ^1.0.2
   flat_list: ^0.1.14
   provider: ^6.0.0
   page_view_dot_indicator: ^2.1.0
   google_sign_in: ^6.2.1
+  fluttertoast: ^8.2.6
 
 dev_dependencies:
   flutter_test:
@@ -28,12 +30,5 @@ flutter:
   uses-material-design: true
 
   assets:
-    #- lib/recursos/imagens/produto.jpeg
-    #- lib/recursos/imagens/bar.png
-    #- lib/recursos/imagens/5cont.jpg
-    #- lib/recursos/imagens/5cont2.jpg
-    #- lib/recursos/imagens/5cont3.jpg
-    #- lib/recursos/imagens/avatar.png
     - lib/recursos/json/feed.json
-    - lib/recursos/json/comentarios.json
     - lib/recursos/imagens/

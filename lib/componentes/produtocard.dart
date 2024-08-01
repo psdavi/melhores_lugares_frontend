@@ -58,7 +58,7 @@ class ProdutoCard extends StatelessWidget {
   padding: const EdgeInsets.only(left: 8, bottom: 5),
   child: Row(
     children: [
-      const Icon(Icons.star, color: Colors.amber, size: 18), // Estrela em vez de coração
+      const Icon(Icons.star, color: Colors.amber, size: 18), 
       Text(produto["nota"].toString())
     ],
   ),
