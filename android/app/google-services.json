@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "876990839338",
+    "project_id": "melhores-lugares",
+    "storage_bucket": "melhores-lugares.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876990839338:android:641faddf6e4e5ebbd0e153",
+        "android_client_info": {
+          "package_name": "com.example.melhoreslugares"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876990839338-ram7fj7hm4br0uo7dq3k68skkh843guj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBHl63TZCj2Mcbtsz4pm2mvHlL_ObjqkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876990839338-ram7fj7hm4br0uo7dq3k68skkh843guj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

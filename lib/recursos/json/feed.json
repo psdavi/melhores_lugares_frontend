@@ -1,0 +1,235 @@
+{
+    "lugares": [
+        {
+            "_id": 1,
+            "datetime": "2019-11-01T12:00-0500",
+            "lugar": {
+                "nome": "5 Continentes",
+                "avatar": "bar.png"
+            },
+            "nota": 4.7,
+            "detalhes": {
+                "nome": "5 Continentes",
+                "descricao": "Variedade de porções, petiscos, comida regional e caipirinhas, ambiente simples de clima casual e encomendas. Opções de serviço: Tem mesas externas · Serve ótimos coquetéis · Serve pratos veganos",
+                "tipo": "BAR",
+                "url": "Endereço: Av. Alirio Sales, n°7 - QD D - Candeias, Vitória da Conquista - BA, 45028-180",
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "5cont.jpg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "5cont2.jpg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "5cont3.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 2,
+            "datetime": "2019-11-01T12:00-0500",
+            "lugar": {
+                "nome": "Blue Jeans",
+                "avatar": "bar.png"
+            },
+            "nota": 3.9,
+            "detalhes": {
+                "nome": "Blue Jeans",
+                "descricao": "No Blue Jeans Pub, cada drink é uma obra de arte em si. Venha experimentar o talento por trás do balcão! ",
+                "tipo": "BAR",
+                "url": "Endereço: Av. João Abuchidid, 206-310 - Candeias, Vitória da Conquista - BA, 45028-125",
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "blue.jpeg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "blue2.jpg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "blue3.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 3,
+            "datetime": "2019-11-01T12:00-0500",
+            "lugar": {
+                "nome": "Boulevard",
+                "avatar": "shopping.png"
+            },
+            "nota": 4.9,
+            "detalhes": {
+                "nome": "Boulevard",
+                "descricao": "Shopping novíssimo (agosto de 2019) muito amplo, projeto moderno, estacionamento, praça de alimentação com as redes de fast food tradicionais.",
+                "tipo": "SHOPPING",
+                "url": "Endereço: Av. Olívia Flores, 2500 - Universidade, Vitória da Conquista - BA, 45028-610",
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "boulevard.jpeg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "boulevard2.jpg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "boulevard3.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 4,
+            "datetime": "2019-11-01T12:00-0500",
+            "lugar": {
+                "nome": "Conquista Sul",
+                "avatar": "shopping.png"
+            },
+            "nota": 4,
+            "detalhes": {
+                "nome": "Conquista Sul",
+                "descricao": "O Shopping Conquista Sul é o maior centro de lazer, compras e entretenimento do Sudoeste da Bahia, localizado em Vitória da Conquista em área privilegiada e de fácil acesso.",
+                "tipo": "SHOPPING",
+                "url": "Endereço: Av. Juracy Magalhães, 3340 - Felicia, Vitória da Conquista - BA, 45055-900",
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "conquistasul.jpeg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "conquistasul2.JPG"
+                    },
+                    {
+                        "type": "image",
+                        "file": "conquistasul3.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 5,
+            "datetime": "2019-11-01T12:00-0500",
+            "lugar": {
+                "nome": "Tancredo Neves",
+                "avatar": "praca.png"
+            },
+            "nota": 4.9,
+            "detalhes": {
+                "nome": "Tancredo Neves",
+                "descricao": "Com modificações sutis ao longo das últimas quase três décadas, o espaço se mantém até hoje, recebendo famílias com crianças a tiracolo, noivas e mulheres grávidas à procura de paisagens belas e grátis para ensaios fotográficos, turistas em visita à cidade, vendedores ambulantes, estudantes em busca de cenário para selfies, trabalhadores ávidos por um horário de almoço em paz – e, naturalmente, casais dispostos a encontros tranquilos.",
+                "tipo": "PRAÇA",
+                "url": "Centro, Vitória da Conquista - BA",
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "tancredo.jpeg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "tancredo2.jpg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "tancredo3.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 6,
+            "datetime": "2019-11-01T12:00-0500",
+            "lugar": {
+                "nome": "Vitor Brito",
+                "avatar": "praca.png"
+            },
+            "nota": 3,
+            "detalhes": {
+                "nome": "Vitor Brito",
+                "descricao": "A Praça Vitor Brito, uma das mais tradicionais de Vitória da Conquista onde conta com o Monumento à Bíblia Sagrada, reformada e reinaugurada ...",
+                "tipo": "PRAÇA",
+                "url": "Endereço: Avenida Lauro de Freitas, 1, Centro, Vitória da Conquista - BA, 45000-230",
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "vitor.jpeg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "vitor2.jpg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "vitor3.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 7,
+            "datetime": "2019-11-01T12:00-0500",
+            "lugar": {
+                "nome": "Lomanto Junior",
+                "avatar": "stadium.png"
+            },
+            "nota": 3.5,
+            "detalhes": {
+                "nome": "Lomanto Junior",
+                "descricao": "Estádio Municipal Lomanto Júnior, mais conhecido como Lomantão, é um estádio de futebol localizado no Bairro Candeias, Zona Leste da cidade de Vitória da Conquista, estado da Bahia. Sua capacidade atual é de 11.538 espectadores, e tem como principal mandante o ECPP Vitória da Conquista. ",
+                "tipo": "ESTÁDIO",
+                "url": "Endereço: Av. Luís Eduardo Magalhães - Candeias, Vitória da Conquista - BA",
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "lomanto.png"
+                    },
+                    {
+                        "type": "image",
+                        "file": "lomanto2.jpeg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "lomanto3.jpg"
+                    }
+                ]
+            }
+        },{
+            "_id": 8,
+            "datetime": "2019-11-01T12:00-0500",
+            "lugar": {
+                "nome": "Edvaldo Flores",
+                "avatar": "stadium.png"
+            },
+            "nota": 4.1,
+            "detalhes": {
+                "nome": "Edvaldo Flores",
+                "descricao": "Estádio Municipal Edvaldo Flores, conhecido pelo maioria como Edvaldo , é um Estádio de futebol localizado em Vitória da Conquista, no estado da Bahia de ...",
+                "tipo": "ESTÁDIO",
+                "url": "Endereço: Av. Bruno Bacelar, 45 - Flamengo, Vitória da Conquista - BA, 45045-060",
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "edvaldo.jpeg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "edvaldo2.jpg"
+                    },
+                    {
+                        "type": "image",
+                        "file": "edvaldo3.jpg"
+                    }
+                ]
+            }
+        }
+    ]
+}
